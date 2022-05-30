@@ -88,10 +88,9 @@ public class testarray {
                             e[i][j] = 0;
                             for (int k = 0; k < 3; k++) {
                                 e[i][j] += MatriksA[i][k] * MatriksB[k][j];
-                            } // end of k loop
-
+                            } 
                             System.out.print(e[i][j] + "        ");
-                        } // end of j loop
+                        }
                         System.out.println();
                     }
                     break;
@@ -101,6 +100,7 @@ public class testarray {
                     break;
 
                 default:
+                    System.out.println("Mohon pilih menu yang benar");//Jika user salah menginput nomor
                     break;
             }
 
